@@ -7,7 +7,7 @@ const Main = () => {
         <main>
             <div className="main">
                 <section className="profile">
-                    <img src="../../src/assets/profile__img.png" alt="" id="profile__img" className='profile__img' />
+                    <div id="profile__img" className='profile__img'></div>
                     <span className="profile__twitter" id="twitter">Annette Black</span>
                     <span className="profile__slack" id="slack">Annete Black</span>
                 </section>

@@ -7,9 +7,9 @@ const Footer = () => {
       <footer className='footer'>
         <div className='footer__line'></div>
         <div className="footer__content">
-          <img src="../../src/assets/Zuri.Internship_Logo.png" alt="zuri" className="footer__img" />
+          <div className="footer__img-1"></div>
           <span className="footer__text">HNG Internship 9 Frontend Task</span>
-          <img src="../../src/assets/I4G.png" alt="ingressive" />
+          <div className='footer__img-2'></div>
         </div>
       </footer>
     </>
