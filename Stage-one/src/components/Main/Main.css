@@ -1,0 +1,157 @@
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 64px 112px;
+	gap: 24px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 32px;
+	gap: 32px;
+	width: 1216px;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+	gap: 24px;
+	width: 1152px;
+	height: 142px;
+}
+
+.profile__img {
+	width: 88px;
+	height: 88px;
+}
+
+.profile__twitter,
+.profile__slack {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	color: #101828;
+}
+
+.profile__slack {
+	display: none;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	width: 1152px;
+}
+
+.links__list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	width: 1152px;
+	height: 76px;
+	filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+	background-color: #eaecf0;
+	border: 1px solid #eaecf0;
+	border-radius: 8px;
+	padding: 0;
+}
+
+.btn a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #101828;
+	line-height: 28px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.btn a sub {
+	font-size: xx-small;
+}
+
+#books__python {
+	display: block;
+}
+
+.social__links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 24px 0;
+	width: 1216px;
+	height: 72px;
+	gap: 64px;
+	background-color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 16px;
+		gap: 24px;
+		width: 375px;
+	}
+
+	.main {
+		width: 343px;
+		padding: 0 16px;
+	}
+
+	.profile {
+		width: 343px;
+		height: 140px;
+	}
+
+	.profile__twitter,
+	.profile__slack {
+		font-size: 18px;
+		line-height: 28px;
+		height: 28px;
+	}
+
+	.links {
+		width: 343px;
+	}
+
+	.btn {
+		width: 343px;
+		height: 68px;
+	}
+
+	.btn a {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.social__links {
+		width: 375px;
+	}
+}
