@@ -25,12 +25,12 @@
 	background-image: url("../../assets/Zuri.Internship_Logo.png");
 	background-repeat: no-repeat;
 	width: 187px;
-	height: 32px;
+	height: 34px;
 }
 
 .footer__img-2 {
 	width: 132px;
-	height: 32px;
+	height: 34px;
 	background-image: url("../../assets/I4G.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -58,12 +58,12 @@
 	}
 
 	.footer__img-1 {
-		width: 140px;
-		height: 24px;
+		width: 187px;
+		height: 35px;
 	}
 
 	.footer__img-2 {
-		width: 99px;
-		height: 24px;
+		width: 140px;
+		height: 27px;
 	}
 }
