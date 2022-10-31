@@ -4,7 +4,6 @@
 	align-items: center;
 	padding: 0 32px;
 	gap: 32px;
-	width: 1216px;
 }
 
 .profile {
@@ -13,7 +12,6 @@
 	align-items: center;
 	padding: 0;
 	gap: 24px;
-	width: 1152px;
 	height: 142px;
 }
 
@@ -46,7 +44,7 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 24px;
-	width: 1152px;
+	width: 90%;
 }
 
 .links__list {
@@ -96,7 +94,6 @@
 	justify-content: center;
 	align-items: center;
 	padding: 24px 0;
-	width: 1216px;
 	height: 72px;
 	gap: 64px;
 	background-color: #fff;
