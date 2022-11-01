@@ -20,7 +20,7 @@ const Main = () => {
                             <a href="https://training.zuri.team/"  id='btn__zuri' target='_blank'>Zuri Team</a>
                         </li>
                         <li className='btn links__zuri-books'>
-                            <a href="https://books.zuri.team/" target='_blank' title='Link to find books about design and coding'  id='books'>Zuri Books</a>
+                            <a href="https://books.zuri.team/" target='_blank' title='Link to find books about design and coding'  id='books'>Zuri Books <sub>Follow link to find books about coding and design</sub></a>
                         </li>
                         <li className='btn links__python'>
                             <a href="https://books.zuri.team/python-for-beginners?ref_id=Don Alvin" target='_blank' id='books__python'>Python Books<sub>1</sub></a>
