@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsSlack, BsGithub } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 import './Main.css'
 
 const Main = () => {
