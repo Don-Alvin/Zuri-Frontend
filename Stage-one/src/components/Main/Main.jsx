@@ -32,8 +32,8 @@ const Main = () => {
                         <li className='btn links__design'>
                             <a href="https://books.zuri.team/design-rules" target='_blank' id='book__design'>Design Books<sub>Get a FREE Design Book</sub></a>
                         </li>
-                        <li className='btn links__contact-us'>
-                            <Link to='/contact-us'>Contact Us</Link>
+                        <li className='btn links__contact'>
+                            <a href='/contact' id='contact' >Contact Me</a>
                         </li>
                     </ul>
                 </section>
