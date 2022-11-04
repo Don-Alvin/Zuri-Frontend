@@ -1,54 +1,62 @@
 .contact {
+	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin: auto;
 }
 
 .contact-container {
-	width: 720px;
-	display: flex;
-	flex-direction: column;
-	gap: 48px;
-	align-items: flex-start;
+	width: 90%;
+	display: grid;
+	justify-content: center;
+	gap: 32px;
 }
 
 .contact-intro {
-	height: 94px;
+	display: grid;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 .contact-intro h1 {
-	width: 448px;
 	font-weight: 600;
 	font-size: 36px;
 	line-height: 44px;
+	color: #101828;
 }
 
 .contact-intro p {
-	width: 100%;
 	font-size: 20px;
 	line-height: 30px;
 	font-weight: 400;
+	color: #475467;
 }
 
 .contact-form {
 	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	display: grid;
+	justify-content: flex-start;
 	gap: 32px;
-	padding: 0;
 }
 
 .names {
-	width: 720px;
+	width: 100%;
 	height: 70px;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	gap: 24px;
 	padding: 0;
 }
 
+.names__name {
+	width: 50%;
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 6px;
+}
+
 .names__name input {
-	width: 320px;
+	width: 100%;
 	height: 44px;
 	padding: 10px 14px;
 	background-color: #fff;
@@ -67,15 +75,6 @@ input:focus {
 	outline: 1px solid #5095f7;
 }
 
-.names__name {
-	width: 348px;
-	height: 70px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 6px;
-}
-
 label,
 .textarea-header {
 	font-size: 14px;
@@ -85,7 +84,7 @@ label,
 }
 
 .email {
-	width: 100px;
+	width: 100%;
 	height: 70px;
 	display: flex;
 	flex-direction: column;
@@ -93,7 +92,7 @@ label,
 }
 
 .email input {
-	width: 720px;
+	width: 100%;
 	height: 44px;
 	background: #ffffff;
 	border: 1px solid #d0d5dd;
@@ -178,4 +177,39 @@ textarea::placeholder {
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 24px;
+	cursor: pointer;
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 890px) {
+	.contact {
+		padding-left: 24px;
+	}
+	.names {
+		width: 100%;
+		display: grid;
+		justify-content: flex-start;
+		height: 164px;
+	}
+
+	.names__name {
+		width: 85vw;
+	}
+
+	.email input {
+		width: 85vw;
+	}
+
+	textarea {
+		width: 85vw;
+	}
+
+	.checkbox-message {
+		width: 85vw;
+	}
+
+	#btn__submit {
+		width: 85vw;
+	}
 }
