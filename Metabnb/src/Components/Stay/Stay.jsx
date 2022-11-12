@@ -3,8 +3,7 @@ import classes from './Stay.module.css'
 
 const Stay = () => {
   return (
-    <div>
-    </div>
+    <div>Stay</div>
   )
 }
 
