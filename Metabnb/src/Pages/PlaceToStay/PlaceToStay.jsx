@@ -6,6 +6,7 @@ const PlaceToStay = () => {
   return (
     <div>
       <Navbar />
+      <div>Places to Stay</div>
       <Footer />
     </div>
   )

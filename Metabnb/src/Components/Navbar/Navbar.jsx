@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className={classes.nav__links}>
           <ul>
             <li className={classes.nav__link_item}>
-              <a href="#">Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li className={classes.nav__link_item}>
               <Link to='/placetostay'>Place to stay</Link>
