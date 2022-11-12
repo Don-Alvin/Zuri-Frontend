@@ -8,10 +8,7 @@ const Navbar = () => {
     <div className={classes.navbar}>
       <nav className={classes.nav}>
         <div className={classes.nav__logo}>
-          <div className={classes.logo}>
-              <img src="" alt="logo" />
-              <h1>Metabnb</h1>
-          </div>
+            <img src='../../src/assets/images/logo.png' alt="logo" />
         </div>
         <div className={classes.nav__links}>
           <ul>
@@ -30,7 +27,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className={classes.nav__button}>
-          <button>Connect wallet</button>
+          <a href="#" className={classes.btn_wallet}>Connect wallet</a>
         </div>
       </nav>
     </div>
