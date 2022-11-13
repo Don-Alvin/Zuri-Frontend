@@ -3,7 +3,18 @@ import classes from './Inspiration.module.css'
 
 const Inspiration = () => {
   return (
-    <div>Inspiration</div>
+    <section className={classes.inspiration}>
+        <div className={classes.inspiration__content}>
+
+          <h1 className={classes.inspiration__header}>
+            Inspiration for your next adventure
+          </h1>
+
+          <div className={classes.inspiration__images}>
+          </div>
+            
+        </div>
+    </section>
   )
 }
 
