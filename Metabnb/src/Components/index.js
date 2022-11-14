@@ -5,3 +5,5 @@ export { default as Navbar } from "./Navbar/Navbar";
 export { default as NFT } from "./NFT/NFT";
 export { default as Stay } from "./Stay/Stay";
 export { default as Partners } from "./Partners/Partners";
+export { default as StayCard } from "./StayCards/StayCard";
+export { default as PlaceToStayCard } from "./PlaceToStayCard/PlaceToStayCard";
