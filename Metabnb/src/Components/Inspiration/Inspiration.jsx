@@ -1,7 +1,6 @@
 import React from 'react'
 import classes from './Inspiration.module.css'
-import data from '../../data'
-import Card from '../UI/Card/Card'
+import StayCard from '../StayCards/StayCard'
 
 
 const Inspiration = () => {
@@ -14,16 +13,7 @@ const Inspiration = () => {
             Inspiration for your next adventure
           </h1>
 
-          <div className={classes.inspiration__images}>
-            <Card>
-              <img className={classes.image} src={data[0].img} alt="stay one" />
-              <div className={classes.inspiration__images_content}>
-                <div className={classes.name__price}>
-                  <span className={classes.name}>{data[0].title}</span>
-                </div> 
-              </div>
-            </Card>
-          </div>
+          <StayCard />
 
         </div>
     </section>

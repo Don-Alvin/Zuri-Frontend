@@ -1,15 +1,20 @@
+.inspiration {
+	margin-top: 19px;
+}
+
 .inspiration__content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.inspiration__images {
-	margin: 43px 100px 53px;
-}
+.inspiration__header {
+	margin-top: 39px;
+	margin-bottom: 43px;
 
-.image {
-	width: 260px;
-	height: 265px;
-	margin: auto;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+
+	color: #000;
 }
