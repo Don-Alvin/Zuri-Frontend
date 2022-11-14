@@ -6,18 +6,27 @@ import classes from './Navbar.module.css'
 
 const Navbar = () => {
   const [showModal, setShowModal] = useState(false)
+  const [navbar, setNavbar] = useState(false)
 
   const openModal = () => {
     setShowModal(true)
 
   }
 
+  const handleNavScroll = () => {
+    if(window.scrollY >= 50) {
+      setNavbar(true)
+    }else(false)
+  }
+
   
+
+  window.addEventListener('scroll', handleNavScroll)
 
   return (
     <div>
       <ConnectWalletModal showModal={showModal} closeModal={() => setShowModal(false)}/>
-      <div className={classes.navbar}>
+      <div className={navbar ? `${classes.navbar} ${classes.navbar_active}` : `${navbar}`}>
         <nav className={classes.nav}>
           <div className={classes.nav__logo}>
               <img src='../../src/assets/images/logo.png' alt="logo" />

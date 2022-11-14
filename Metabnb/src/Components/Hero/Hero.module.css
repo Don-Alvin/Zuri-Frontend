@@ -1,5 +1,5 @@
 .hero {
-	margin: 168px 100px 67px;
+	margin: 250px 100px 67px;
 	display: flex;
 	gap: 99px;
 	justify-content: center;
@@ -42,11 +42,11 @@
 	background: rgba(247, 247, 247, 0.1);
 	border: 1px solid #a3a3a3;
 	border-radius: 8px 0 0 8px;
+	padding: 12px;
 }
 
 .search input::placeholder {
 	font-size: 14px;
-	font-family: "Red Rose";
 	line-height: 130%;
 	color: #b8b8b8;
 	position: absolute;
@@ -54,6 +54,10 @@
 	right: 57.95%;
 	top: 35.04%;
 	bottom: 37.18%;
+}
+
+.search input:focus {
+	outline: none;
 }
 
 .btn_search {
@@ -73,4 +77,26 @@
 	top: calc(50% - 20px / 2);
 	font-size: 16px;
 	line-height: 19px;
+}
+
+@media screen and (max-width: 890px) {
+	.hero {
+		flex-direction: column;
+	}
+
+	.hero_text {
+		width: 80vw;
+	}
+
+	.search input {
+		width: 230px;
+	}
+
+	.btn_search {
+		width: 80px;
+	}
+
+	.hero_image {
+		width: 70%;
+	}
 }
