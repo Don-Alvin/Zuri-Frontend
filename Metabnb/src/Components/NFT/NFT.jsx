@@ -13,7 +13,13 @@ const NFT = () => {
           Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.
         </p>
 
-        <a href="#" className={`${classes.btn} ${classes.btn__nft}`}>Learn more</a>
+        <a href="#" className={`${classes.btn} ${classes.btn__nft}`}>
+          Learn more
+        </a>
+      </div>
+
+      <div className={classes.nft__image}>
+        <img src="../../src/assets/images/nft.svg" alt="nft image" />
       </div>
     </section>
   )
