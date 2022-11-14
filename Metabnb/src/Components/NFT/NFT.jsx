@@ -3,7 +3,7 @@ import classes from './NFT.module.css'
 
 const NFT = () => {
   return (
-    <section className={classes.nft}>
+    <section className={classes.nft} id="nft">
       <div className={classes.nft__text}>
         <h1 className={classes.nft__heading}>
           Metabnb NFTs

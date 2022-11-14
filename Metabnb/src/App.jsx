@@ -4,10 +4,12 @@ import { PlaceToStay, Home } from './Pages'
 
 const App = () => {
   return (
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/placetostay' element={<PlaceToStay />} />
-    </Routes>
+    <div>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/placetostay' element={<PlaceToStay />} />
+      </Routes>
+    </div>
   )
 }
 
