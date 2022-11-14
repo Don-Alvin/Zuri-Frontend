@@ -28,10 +28,11 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 24px 32px;
-	gap: 386px;
 
 	width: 600px;
 	height: 78px;
+
+	border-bottom: 1px solid #cfd8dc;
 }
 
 .modal__header h2 {
@@ -44,6 +45,7 @@
 .cancel {
 	font-size: 24px;
 	display: inline;
+	cursor: pointer;
 }
 
 .modal__content {

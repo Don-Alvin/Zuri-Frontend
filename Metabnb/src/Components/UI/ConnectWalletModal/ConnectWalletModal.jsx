@@ -7,7 +7,9 @@ const ConnectWalletModal = ({showModal, closeModal}) => {
     if (!showModal) return null;
   return (
     <div className={classes.modal} onClick={closeModal}>
-        <div className={classes.modal_card}>
+        <div className={classes.modal_card} onClick={(e) => {
+            e.stopPropagation()
+        }}>
             <header className={classes.modal__header}>
                 <h2>Connect Wallet</h2>
                 <div className={classes.cancel}  onClick={closeModal}>

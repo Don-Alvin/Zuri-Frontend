@@ -12,6 +12,8 @@ const Navbar = () => {
 
   }
 
+  
+
   return (
     <div>
       <ConnectWalletModal showModal={showModal} closeModal={() => setShowModal(false)}/>
