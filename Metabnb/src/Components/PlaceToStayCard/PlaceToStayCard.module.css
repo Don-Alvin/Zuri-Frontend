@@ -1,0 +1,30 @@
+.image {
+	width: 260px;
+	height: 265px;
+	border: 1px solid #d7d7d7;
+	border-radius: 15px;
+}
+
+.content_wrapper {
+	padding: 16px;
+}
+
+.placetostay__images_content {
+	font-size: 12px;
+	line-height: 13px;
+	color: #434343;
+
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.name__price,
+.distance__availability {
+	display: flex;
+	justify-content: space-between;
+}
+
+.price {
+	font-weight: 700;
+}
