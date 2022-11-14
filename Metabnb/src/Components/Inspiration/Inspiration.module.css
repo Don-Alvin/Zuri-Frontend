@@ -1,0 +1,15 @@
+.inspiration__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inspiration__images {
+	margin: 43px 100px 53px;
+}
+
+.image {
+	width: 260px;
+	height: 265px;
+	margin: auto;
+}
