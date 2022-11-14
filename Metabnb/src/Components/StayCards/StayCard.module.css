@@ -13,6 +13,16 @@
 	padding: 16px;
 }
 
+.banner {
+	position: relative;
+}
+
+.heart_icon {
+	position: absolute;
+	top: 20px;
+	left: 220px;
+}
+
 .image {
 	width: 260px;
 	height: 265px;

@@ -9,7 +9,10 @@ const StayCard = () => {
     <div className={classes.inspiration__images}>
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={data[0].img} alt="stay one" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={data[0].img} alt="stay one" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                 
                 <div className={classes.inspiration__images_content}>
                     <div className={classes.name__price}>
@@ -30,7 +33,10 @@ const StayCard = () => {
 
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={data[1].img} alt="stay two" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={data[1].img} alt="stay two" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                 <div className={classes.inspiration__images_content}>
                     <div className={classes.name__price}>
                       <span className={classes.name}>{data[1].title}</span>
@@ -50,7 +56,10 @@ const StayCard = () => {
 
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={data[2].img} alt="stay three" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={data[2].img} alt="stay three" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                 <div className={classes.inspiration__images_content}>
                     <div className={classes.name__price}>
                       <span className={classes.name}>{data[2].title}</span>
@@ -70,7 +79,10 @@ const StayCard = () => {
 
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={data[3].img} alt="stay four" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={data[3].img} alt="stay four" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                 <div className={classes.inspiration__images_content}>
                     <div className={classes.name__price}>
                       <span className={classes.name}>{data[3].title}</span>
@@ -90,7 +102,10 @@ const StayCard = () => {
 
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={data[4].img} alt="stay five" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={data[4].img} alt="stay five" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                 <div className={classes.inspiration__images_content}>
                     <div className={classes.name__price}>
                       <span className={classes.name}>{data[4].title}</span>
@@ -110,7 +125,10 @@ const StayCard = () => {
 
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={data[5].img} alt="stay six" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={data[5].img} alt="stay six" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                 <div className={classes.inspiration__images_content}>
                     <div className={classes.name__price}>
                       <span className={classes.name}>{data[5].title}</span>
@@ -130,7 +148,10 @@ const StayCard = () => {
 
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={data[6].img} alt="stay seven" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={data[6].img} alt="stay seven" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                 <div className={classes.inspiration__images_content}>
                     <div className={classes.name__price}>
                       <span className={classes.name}>{data[6].title}</span>
@@ -150,7 +171,10 @@ const StayCard = () => {
 
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={data[7].img} alt="stay eight" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={data[7].img} alt="stay eight" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                 <div className={classes.inspiration__images_content}>
                     <div className={classes.name__price}>
                       <span className={classes.name}>{data[7].title}</span>
