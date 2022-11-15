@@ -24,6 +24,19 @@ const Stay = () => {
       <div className={classes.stay__content}>
         <div className={classes.header}>
           <div className={classes.categories}>
+            <div className={classes.dropdown_menu}>
+              <select>
+                <option value="Categories">Categories</option>
+                <option value="Restaurant">Restaurant</option>
+                <option value="Cottage">Cottage</option>
+                <option value="Castle">Castle</option>
+                <option value="Fantasy City">Fantasy City</option>
+                <option value="Beach">Beach</option>
+                <option value="Cabins">Cabins</option>
+                <option value="Off-grid">Off-grid</option>
+                <option value="Farm">Farm</option>
+              </select>
+            </div>
             <ul className={classes.categories__list}>
               <li className={classes.categories__item}>
                 <a href="">Restaurant</a>

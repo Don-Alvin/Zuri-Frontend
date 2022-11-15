@@ -76,6 +76,21 @@
 }
 
 @media screen and (max-width: 1023px) {
+	.nav__logo img {
+		width: 60%;
+	}
+
+	.btn_wallet {
+		font-size: 14px;
+	}
+
+	.nav__button {
+		width: 120px;
+		height: 40px;
+		border-radius: 8px;
+		padding: 5px;
+	}
+
 	.nav {
 		padding: 20px 40px;
 	}

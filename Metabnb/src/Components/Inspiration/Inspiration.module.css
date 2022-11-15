@@ -25,7 +25,8 @@
 		padding: 0 30px;
 	}
 	.inspiration__header {
-		font-size: 8vw;
+		font-size: 6vw;
 		margin-bottom: 10px;
+		text-align: center;
 	}
 }
