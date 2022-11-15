@@ -68,3 +68,28 @@
 	line-height: 35px;
 	color: #f1f3f9;
 }
+
+@media screen and (max-width: 1023px) {
+	.footer__content {
+		display: grid;
+		gap: 10px;
+	}
+
+	.footer__logo_socials {
+		gap: 40px;
+		padding: 30px;
+	}
+
+	.footer__content_socials {
+		gap: 24px;
+	}
+
+	.footer__content_list {
+		padding: 30px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 48px;
+		margin-right: 0;
+		margin-bottom: 72px;
+	}
+}

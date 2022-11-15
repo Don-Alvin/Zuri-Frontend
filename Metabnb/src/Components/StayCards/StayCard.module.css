@@ -1,7 +1,9 @@
 .inspiration__images {
+	width: 90vw;
 	margin: 43px 100px 53px;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	gap: 24px;
 }
 
@@ -44,4 +46,7 @@
 
 .price {
 	font-weight: 700;
+}
+
+@media screen {
 }
