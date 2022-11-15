@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { HiHome } from 'react-icons/hi'
+import { SiBandsintown } from 'react-icons/si'
+import { GiToken } from 'react-icons/gi'
+import { IoIosPeople } from 'react-icons/io'
 import ConnectWalletModal from '../UI/ConnectWalletModal/ConnectWalletModal'
 import classes from './Navbar.module.css'
 
@@ -34,16 +38,36 @@ const Navbar = () => {
           <div className={classes.nav__links}>
             <ul>
               <li className={classes.nav__link_item}>
-                <Link to='/'>Home</Link>
+                <Link to='/'>
+                  <span>Home</span>
+                  <div className={classes.icon}>
+                    <HiHome />
+                  </div>
+                </Link>
               </li>
               <li className={classes.nav__link_item}>
-                <Link to='/placetostay'>Place to stay</Link>
+                <Link to='/placetostay'>
+                  <span>Place to stay</span>
+                  <div className={classes.icon}>
+                    <SiBandsintown />
+                  </div>
+                </Link>
               </li>
               <li className={classes.nav__link_item}>
-                <a href="#nft">NFTs</a>
+                <a href="#nft">
+                  <span>NFTs</span>
+                  <div className={classes.icon}>
+                    <GiToken />
+                  </div>
+                </a>
               </li>
               <li className={classes.nav__link_item}>
-                <a href=''>Community</a>
+                <a href=''>
+                  <span>Community</span>
+                  <div className={classes.icon}>
+                    <IoIosPeople />
+                  </div>
+                </a>
               </li>
             </ul>
           </div>

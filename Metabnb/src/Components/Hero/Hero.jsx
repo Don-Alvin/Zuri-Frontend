@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
         </form>
       </div>
-      <div className="hero_image">
+      <div className={classes.hero_image}>
         <img src="../../src/assets/images/hero.png" alt="hero-image" />
       </div>
     </section>

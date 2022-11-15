@@ -89,14 +89,27 @@
 	}
 
 	.search input {
-		width: 230px;
+		width: 60%;
 	}
 
 	.btn_search {
-		width: 80px;
+		width: 30%;
 	}
 
-	.hero_image {
-		width: 70%;
+	.hero_image img {
+		width: 80vw;
+	}
+
+	.hero_heading {
+		font-size: 8vw;
+		line-height: 140%;
+		letter-spacing: -0.02rem;
+		color: #434343;
+	}
+
+	.hero_paragraph {
+		font-size: 4vw;
+		color: #434343;
+		line-height: 35px;
 	}
 }
