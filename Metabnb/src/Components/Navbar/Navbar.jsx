@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className={navbar ? `${classes.navbar} ${classes.navbar_active}` : `${navbar}`}>
         <nav className={classes.nav}>
           <div className={classes.nav__logo}>
-              <img src='../../src/assets/images/logo.png' alt="logo" />
+              <img src='../../public/images/logo.png' alt="logo" />
           </div>
           <div className={classes.nav__links}>
             <ul>

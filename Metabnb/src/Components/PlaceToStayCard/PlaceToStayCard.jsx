@@ -9,7 +9,7 @@ const PlaceToStayCard = (props) => {
             <div className={classes.content_wrapper}>
                 <div className={classes.banner}>
                     <img className={classes.image} src={props.img} alt="stay one" />
-                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                    <img className={classes.heart_icon} src='../../public/images/heart.svg' />
                 </div>
                     
                 <div className={classes.placetostay__images_content}>

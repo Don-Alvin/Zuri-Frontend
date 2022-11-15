@@ -19,7 +19,7 @@ const Hero = () => {
         </form>
       </div>
       <div className={classes.hero_image}>
-        <img src="../../src/assets/images/hero.png" alt="hero-image" />
+        <img src="../../public/images/hero.png" alt="hero-image" />
       </div>
     </section>
   )
