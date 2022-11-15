@@ -20,7 +20,7 @@ const ConnectWalletModal = ({showModal, closeModal}) => {
                 <h3>Choose your preferred wallet:</h3>
                 <div className={classes.wallet__btns}>
                     <a href="" className={classes.btn__wallet}>
-                       <div className={classes.btn__content}>
+                        <div className={classes.btn__content}>
                           <img src="../../src/assets/images/metamaskmodal.png" alt="" />
                           <span>Metamask</span>
                         </div>
@@ -29,7 +29,7 @@ const ConnectWalletModal = ({showModal, closeModal}) => {
                         </div>
                     </a>
                     <a href="" className={classes.btn__wallet}>
-                       <div className={classes.btn__content}>
+                        <div className={classes.btn__content}>
                           <img src="../../src/assets/images/walletconnect.png" alt="wallet connect" />
                           <span>WalletConnect</span>
                         </div>
