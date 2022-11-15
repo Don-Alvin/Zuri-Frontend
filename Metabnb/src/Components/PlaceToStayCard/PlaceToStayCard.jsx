@@ -7,7 +7,10 @@ const PlaceToStayCard = (props) => {
     <div className={classes.placetostay__images}>
         <Card>
             <div className={classes.content_wrapper}>
-                <img className={classes.image} src={props.img} alt="stay one" />
+                <div className={classes.banner}>
+                    <img className={classes.image} src={props.img} alt="stay one" />
+                    <img className={classes.heart_icon} src='../../src/assets/images/heart.svg' />
+                </div>
                     
                 <div className={classes.placetostay__images_content}>
                     <div className={classes.name__price}>

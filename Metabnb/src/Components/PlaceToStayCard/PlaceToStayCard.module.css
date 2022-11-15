@@ -9,6 +9,16 @@
 	padding: 16px;
 }
 
+.banner {
+	position: relative;
+}
+
+.heart_icon {
+	position: absolute;
+	top: 20px;
+	left: 220px;
+}
+
 .placetostay__images_content {
 	font-size: 12px;
 	line-height: 13px;
