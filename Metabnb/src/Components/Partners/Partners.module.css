@@ -10,3 +10,15 @@
 	height: 70px;
 	width: 100%;
 }
+
+@media screen and (max-width: 1023px) {
+	.partners {
+		padding: 10px 30px;
+		gap: 10px;
+		justify-content: space-between;
+	}
+
+	.partners img {
+		width: 30%;
+	}
+}
