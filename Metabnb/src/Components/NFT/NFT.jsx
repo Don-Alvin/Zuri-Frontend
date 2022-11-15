@@ -1,4 +1,5 @@
 import React from 'react'
+import { images } from '../../Constants'
 import classes from './NFT.module.css'
 
 const NFT = () => {
@@ -19,7 +20,7 @@ const NFT = () => {
       </div>
 
       <div className={classes.nft__image}>
-        <img src="../../src/assets/images/nft.svg" alt="nft image" />
+        <img src={images.nft} alt="nft image" />
       </div>
     </section>
   )

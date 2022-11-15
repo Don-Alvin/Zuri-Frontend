@@ -3,6 +3,7 @@ import Card from '../UI/Card/Card'
 
 import classes from "./StayCard.module.css"
 import data from '../../data'
+import { images } from '../../Constants'
 
 const StayCard = () => {
   return (
@@ -11,7 +12,7 @@ const StayCard = () => {
             <div className={classes.content_wrapper}>
                 <div className={classes.banner}>
                     <img className={classes.image} src={data[0].img} alt="stay one" />
-                    <img className={classes.heart_icon} src='../../public/images/heart.svg' />
+                    <img className={classes.heart_icon} src={images.heart} />
                 </div>
                 
                 <div className={classes.inspiration__images_content}>

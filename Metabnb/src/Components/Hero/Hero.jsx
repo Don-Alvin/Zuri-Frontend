@@ -1,4 +1,5 @@
 import React from 'react'
+import { images } from '../../Constants'
 import classes from './Hero.module.css'
 
 const Hero = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
         </form>
       </div>
       <div className={classes.hero_image}>
-        <img src="../../public/images/hero.png" alt="hero-image" />
+        <img src={images.hero} alt="hero-image" />
       </div>
     </section>
   )

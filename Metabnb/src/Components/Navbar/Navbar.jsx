@@ -4,6 +4,7 @@ import { HiHome } from 'react-icons/hi'
 import { SiBandsintown } from 'react-icons/si'
 import { GiToken } from 'react-icons/gi'
 import { IoIosPeople } from 'react-icons/io'
+import { images } from '../../Constants'
 import ConnectWalletModal from '../UI/ConnectWalletModal/ConnectWalletModal'
 import classes from './Navbar.module.css'
 
@@ -35,7 +36,7 @@ const Navbar = () => {
       <div className={navbar ? `${classes.navbar} ${classes.navbar_active}` : `${navbar}`}>
         <nav className={classes.nav}>
           <div className={classes.nav__logo}>
-              <img src='../../public/images/logo.png' alt="logo" />
+              <img src={images.logo} alt="logo" />
           </div>
           <div className={classes.nav__links}>
             <ul>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'
+import { images } from '../../Constants'
 import classes from './Footer.module.css'
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
       <div className={classes.footer__content}>
 
         <div className={classes.footer__logo_socials}>
-          <img src="../../src/assets/images/footerlogo.png" alt="footer__logo" className={classes.footer__content_logo} />
+          <img src={images.footerlogo} alt="footer__logo" className={classes.footer__content_logo} />
           <div className={classes.footer__content_socials}>
             <div className={classes.socials}>
               <FaFacebookF />

@@ -3,7 +3,7 @@
 	margin: 43px 100px 53px;
 	display: grid;
 	justify-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: repeat(4, 1fr);
 	gap: 24px;
 }
 
@@ -48,5 +48,13 @@
 	font-weight: 700;
 }
 
-@media screen {
+@media screen and (max-width: 1023px) {
+	.inspiration__images {
+		width: 90vw;
+		margin: 43px 100px 53px;
+		display: grid;
+		justify-items: center;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		gap: 24px;
+	}
 }

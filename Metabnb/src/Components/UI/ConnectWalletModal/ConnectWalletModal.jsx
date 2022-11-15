@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaTimes } from 'react-icons/fa'
 import { MdArrowForwardIos } from 'react-icons/md'
+import { images } from '../../../Constants'
 import classes from './ConnectWalletModal.module.css'
 
 const ConnectWalletModal = ({showModal, closeModal}) => {
@@ -21,7 +22,7 @@ const ConnectWalletModal = ({showModal, closeModal}) => {
                 <div className={classes.wallet__btns}>
                     <a href="" className={classes.btn__wallet}>
                         <div className={classes.btn__content}>
-                          <img src="../../src/assets/images/metamaskmodal.png" alt="" />
+                          <img src={images.metamaskmodal} alt="" />
                           <span>Metamask</span>
                         </div>
                         <div className={classes.goto}>
@@ -30,7 +31,7 @@ const ConnectWalletModal = ({showModal, closeModal}) => {
                     </a>
                     <a href="" className={classes.btn__wallet}>
                         <div className={classes.btn__content}>
-                          <img src="../../src/assets/images/walletconnect.png" alt="wallet connect" />
+                          <img src={images.walletconnect} alt="wallet connect" />
                           <span>WalletConnect</span>
                         </div>
                         <div className={classes.goto}>
